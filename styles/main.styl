@@ -1,0 +1,117 @@
+@import 'nib'
+
+tomato = #F4565F
+mediumvioletred = #E01467
+crimson = #E21515
+orangered = #EC3800
+orangered_light = #F95B00
+darkorange = #F56E00
+goldenrod = #FFB736
+khaki = #FCED58
+olivedrab = #7CB51E
+turquoise = #38E3CF
+darkcyan = #179C93
+royalblue = #1C80CC
+royalblue_dark = #2264FF
+blue = #0514ED
+blueviolet = #8A2AFF
+darkviolet = #5800D2
+
+html, body
+	height 100%
+
+body
+	background khaki
+	font-family 'Source Sans Pro', sans-serif
+
+h3
+	font-size 1.6em
+	font-weight normal
+	margin-top 0
+
+section
+	background #29323F
+	box-shadow 10px 10px 30px rgba(0,0,0,0.5)
+	color white
+	height 430px
+	margin 100px auto
+	width 380px
+
+	header
+		height 20px
+		line-height 20px
+		padding 10px
+		position relative
+
+		#show-color
+			background khaki
+			border-radius 50%
+			left 20px
+			height 9px
+			cursor pointer 
+			position absolute
+			top 20px
+			width 9px
+
+		#show-menu
+			cursor pointer
+			font-size 0.9em
+			position absolute
+			right 20px
+			top 13px
+
+	article
+		#choose-color-section
+			margin 0 auto
+			text-align center
+			width 70%
+			h3
+				margin-bottom 60px
+			> div
+				align-items center
+				display flex
+				justify-content space-between
+				margin-bottom 20px
+				span
+					border 4px solid transparent
+					border-radius 50%
+					cursor pointer
+					height 40px
+					transition 0.6s ease all
+					width 40px
+					&.active,
+					&:hover
+						border-color white
+				#tomato
+					background tomato
+				#mediumvioletred
+					background mediumvioletred
+				#crimson
+					background crimson
+				#orangered
+					background orangered
+				#orangered_light
+					background orangered_light
+				#darkorange
+					background darkorange
+				#goldenrod
+					background goldenrod
+				#khaki
+					background khaki
+				#olivedrab
+					background olivedrab
+				#turquoise
+					background turquoise
+				#darkcyan
+					background darkcyan
+				#royalblue
+					background royalblue
+				#royalblue_dark
+					background royalblue_dark
+				#blue
+					background blue
+				#blueviolet
+					background blueviolet
+				#darkviolet
+					background darkviolet
+
