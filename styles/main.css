@@ -258,6 +258,9 @@ section article #calendar-section .fc-left button {
   outline: none;
   border: none;
 }
+section article #calendar-section .fc-day-header {
+  text-align: center;
+}
 section article #calendar-section .fc-center {
   color: #fced58;
   font-size: 1em;
@@ -332,8 +335,8 @@ section article #calendar-section .add-event-section {
   z-index: 99999;
 }
 section article #calendar-section .add-event-section div {
-  position: relative;
   height: 100%;
+  position: relative;
 }
 section article #calendar-section .add-event-section div span {
   width: 0;
